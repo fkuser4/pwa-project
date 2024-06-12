@@ -5,5 +5,5 @@ if(!defined('__APP__')){
     die("Hacking attempt");
 }
 
-$conn = mysqli_connect("localhost", "root", "filip2003kuser", "sopitas")
+$conn = mysqli_connect("localhost", "root", "root", "sopitas")
 or die('Error connecting to MySQL server.');
